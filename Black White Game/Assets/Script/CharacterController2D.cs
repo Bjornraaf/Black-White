@@ -109,17 +109,17 @@ public class CharacterController2D : MonoBehaviour
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
 			
-			if (move > 0 && !m_FacingRight)
-			{
-				
-				Flip();
-			}
+			//if (move > 0 && !m_FacingRight)
+			//{
+			//	
+			//	Flip();
+			//}
 			
-			else if (move < 0 && m_FacingRight)
-			{
-				
-				Flip();
-			}
+			//else if (move < 0 && m_FacingRight)
+			//{
+			//	
+			//	Flip();
+			//}
 		}
 		
 		if (m_Grounded && jump)
