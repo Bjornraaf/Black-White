@@ -15,7 +15,7 @@ public class FollowCamera : MonoBehaviour
 
         Vector3 position = this.transform.position;
         position.x = Mathf.Lerp(this.transform.position.x, objectToFollow.transform.position.x, interpolation);
-        position.y = Mathf.Lerp(this.transform.position.y, objectToFollow.transform.position.y, interpolation);
+        
         this.transform.position = position;
     }
 }
