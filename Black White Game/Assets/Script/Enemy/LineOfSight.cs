@@ -18,7 +18,7 @@ public class LineOfSight : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.name == "Circle")
+        if (other.name == "Player")
         {
             Application.LoadLevel(Application.loadedLevel);
         }

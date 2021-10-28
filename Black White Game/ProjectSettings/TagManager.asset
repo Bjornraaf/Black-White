@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - GrabPoint
+  - Enemy
   layers:
   - Default
   - TransparentFX
